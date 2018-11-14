@@ -18,4 +18,4 @@ add-apt-repository \
 apt-get update && \
 apt-get -y install docker-ce
 
-RUN apt-get install -y git ssh gcc g++ cmake
+RUN apt-get install -y git ssh gcc g++ cmake libboost-all-dev
